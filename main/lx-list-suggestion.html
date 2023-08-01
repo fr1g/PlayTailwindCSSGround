@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LX LIST DESG</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    *{
+        user-select: none;
+    }
+    .al>span{
+        font-size: x-large;
+        display: inline-block;
+        vertical-align: middle;
+    }
+</style>
+<body class="bg-black text-stone-300">
+    <div class="container w-full m-0 block mx-auto min-w-full">
+        <div class="grid grid-cols-9 gap-1 w justify-center mt-8">
+            <div class="col-span-7 border rounded-xl p-6 border-opacity-40 border-gray-800 shadow-zinc-800 hover:shadow-zinc-900 active:shadow-zinc-950 shadow-md hover:shadow-lg active:shadow-xl m-3 col-start-2 al grid grid-cols-5 bg-zinc-950 transition-all ">
+
+                        <span title="游戏友好名称" class="text-left my-auto">
+                            枘方世界-中国宝可梦
+                        </span>             
+                        <span title="信息" class="col-span-3 my-auto">
+                            <span title="游戏实际版本" class="p-1 bg-yellow-400 text-black w-fit mx-1">
+                                1.16.5 
+                            </span>                        
+                            <span title="上次启动用户" class="mx-1 bg-neutral-600 p-1">
+                                nitamade
+                            </span>                        
+                            <span title="游戏进行时长" class="mx-1 bg-zinc-800 p-1 bg-opacity-30">
+                                114min
+                            </span>                        
+                        </span>           
+                        <span title="操作区" class="text-right">
+                            <button class="p-2 bg-yellow-400 text-zinc-900 hover:bg-yellow-500 active:bg-yellow-600 shadow-md hover:shadow-lg active:shadow-xl shadow-gray-700 transition-all rounded-lg">启动游戏</button>
+                            <button class="p-2 bg-gray-200 text-zinc-900 hover:bg-gray-300 active:bg-gray-400 shadow-md hover:shadow-lg active:shadow-xl shadow-gray-700 transition-all rounded-lg"> PIN </button>
+                        </span>                        
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
